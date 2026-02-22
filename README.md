@@ -33,6 +33,7 @@ This platform focuses on:
 - Light & Dark theme support  
 
 ---
+## 🔗Demo : https://researcher-place.netlify.app/
 
 ## 🚀 Key Features
 
