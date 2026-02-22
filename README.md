@@ -1,20 +1,125 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Collabrium – The Researchers Platform
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="banner.png" alt="Collabrium Banner"/>
+</p>
 
-This contains everything you need to run your app locally.
+<p align="center">
+  <strong>A Modern Academic Collaboration Platform for Structured Research Workflows</strong>
+</p>
 
-View your app in AI Studio: https://ai.studio/apps/fcd4f857-f021-4e61-a85d-533a9277ba79
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react"/>
+  <img src="https://img.shields.io/badge/Vite-Frontend-purple?logo=vite"/>
+  <img src="https://img.shields.io/badge/Framer--Motion-Animations-black"/>
+  <img src="https://img.shields.io/badge/Status-Production--Ready-success"/>
+  <img src="https://img.shields.io/badge/License-MIT-green"/>
+</p>
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 📌 Overview
+
+**Collabrium – The Researchers Platform** is a professional academic collaboration system designed to streamline research governance, milestone tracking, document management, and structured team communication.
+
+It delivers a production-ready SaaS-style interface with role-based dashboards for Admins and Researchers.
+
+This platform focuses on:
+
+- Workflow clarity  
+- Institutional design standards  
+- Data-driven insights  
+- Scalable architecture  
+- Light & Dark theme support  
+
+---
+
+## 🚀 Key Features
+
+### 🔐 Authentication System
+- Role-based registration (Admin / Researcher)
+- Secure login simulation
+- CAPTCHA verification
+- Protected routing
+- Persistent session management
+
+---
+
+### 🧑‍💼 Admin Dashboard
+- System-wide project governance
+- KPI overview metrics
+- Research analytics visualizations
+- Project risk monitoring
+- Approval & moderation system
+- Activity feed monitoring
+
+---
+
+### 👨‍🔬 Researcher Dashboard
+- Task-priority overview
+- Milestone tracking
+- Project workspace
+- Collaboration timeline
+- Document management
+- Productivity analytics
+
+---
+
+### 📊 Data Visualization
+- Project completion trends
+- Milestone performance charts
+- Research activity tracking
+- Domain distribution insights
+
+---
+
+### 🌗 Global Dark Mode
+- Full system theme switching
+- Persistent preference
+- Chart adaptation
+- Accessible contrast ratios
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+## 🧠 System Architecture
+src/
+├── pages/
+│ ├── auth/
+│ ├── admin/
+│ ├── researcher/
+├── components/
+├── context/
+├── hooks/
+├── utils/
+├── styles/
+├── routes/
+└── App.jsx
+
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| React 18 | Frontend framework |
+| Vite | Development & bundling |
+| React Router | Routing |
+| Framer Motion | Animations |
+| Recharts / Chart.js | Data visualization |
+| Context API | State management |
+| CSS Variables | Theme system |
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/collabrium.git
+cd collabrium
+npm install
+npm run dev
+open http://localhost:5173
